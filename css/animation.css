@@ -25,3 +25,19 @@
     opacity: 0;
     transition: 3s;
 }
+
+/* esercizio 5 */
+
+.ex-5-square:hover {
+    width: 70px;
+    height: 70px;
+    transition: 1s;
+}
+
+.ex-5-square:active{
+    width: 30px;
+    height: 30px;
+    transition: 1s;
+}
+
+/* esercizio 7 */
