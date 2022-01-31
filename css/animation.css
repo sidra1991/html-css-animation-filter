@@ -52,3 +52,13 @@
     filter: grayscale(100%);
     transition: 4s;
 }
+
+/* esercizio 8 */
+
+.ex-8-img:hover{
+    border-radius: 50px;
+    filter: sepia(100%);
+    transition: 5s;
+}
+
+/* esercizio 9 */
