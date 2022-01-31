@@ -6,3 +6,10 @@
 }
 
 /* esercizio 2 */
+
+.ex-2-square:active{
+    padding-right: 100%;
+    transition: 5s;
+}
+
+/* esercizio 3 */
