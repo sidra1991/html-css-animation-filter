@@ -40,4 +40,12 @@
     transition: 1s;
 }
 
-/* esercizio 7 */
+/* esercizio 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover {
+    
+}
