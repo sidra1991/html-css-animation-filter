@@ -100,7 +100,7 @@
 /* esercizio 12 */
 
 .ex-12-bottom-white {
-    animation: bottom 1s linear infinite;
+    animation: bottom 3s linear infinite;
 }
 
 @keyframes bottom {
@@ -110,7 +110,7 @@
 }
 
 .ex-12-top-white {
-    animation: top 1s linear infinite;
+    animation: top 3s linear infinite;
 }
 
 @keyframes top {
@@ -120,3 +120,58 @@
 }
 
 /* esercizio 13 */
+
+.ex-13-bottom-white {
+    animation: rot-bottom 5s linear infinite;
+}
+
+@keyframes rot-bottom {
+    25% { 
+        right: 80%;  
+        bottom:-10px;
+     }
+    50% {
+        right: 80%;
+        bottom:50px;
+    }
+    75% { 
+        right: -10%;
+        bottom:50px;
+    }
+    90% { 
+        right: -10%;
+        bottom:-10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+}
+
+.ex-13-top-white {
+    animation: rot-top 5s linear infinite;
+}
+
+@keyframes rot-top {
+    25% { 
+        left: 80%;  
+        top:-10px;
+     }
+    50% {
+        left: 80%;
+        top:50px;
+    }
+    75% { 
+        left: -10%;
+        top:50px;
+    }
+    90% { 
+        left: -10%;
+        top:-10px;
+    }
+    100% {
+        left: 20%;
+        top: -10px;
+    }
+}
