@@ -80,3 +80,22 @@
     0% { transform: rotate(1turn); }
     
 }
+
+/* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation: ruota2 5s linear infinite;
+}
+
+@keyframes ruota2 {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    90% { transform: rotate(270deg); }
+    95% { transform: rotate(180deg); }
+    98% { transform: rotate(90deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* esercizio 12 */
+
