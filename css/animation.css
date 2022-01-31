@@ -68,3 +68,15 @@
     transform: scale(0.5);
     transition: 3s;
 }
+
+/* esercizio 10 */
+
+
+.ex-10-icon {
+    animation: ruota 1s linear infinite;
+}
+
+@keyframes ruota {
+    0% { transform: rotate(1turn); }
+    
+}
