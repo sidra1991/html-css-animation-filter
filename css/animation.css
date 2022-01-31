@@ -62,3 +62,9 @@
 }
 
 /* esercizio 9 */
+
+.ex-9-img:hover {
+    border-radius: 50px;
+    transform: scale(0.5);
+    transition: 3s;
+}
