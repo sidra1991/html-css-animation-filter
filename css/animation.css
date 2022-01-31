@@ -13,3 +13,8 @@
 }
 
 /* esercizio 3 */
+
+.ex-3-square:hover {
+    border-radius: 50%;
+    transition: 3s;
+}
