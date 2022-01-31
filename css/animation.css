@@ -99,3 +99,24 @@
 
 /* esercizio 12 */
 
+.ex-12-bottom-white {
+    animation: bottom 1s linear infinite;
+}
+
+@keyframes bottom {
+    25% { right: 40%; }
+    50% { right: 60%; }
+    75% { right: 40%; }
+}
+
+.ex-12-top-white {
+    animation: top 1s linear infinite;
+}
+
+@keyframes top {
+    25% { left: 40%; }
+    50% { left: 60%; }
+    75% { left: 40%; }
+}
+
+/* esercizio 13 */
