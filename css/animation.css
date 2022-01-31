@@ -46,6 +46,9 @@
     filter: grayscale(100%);
 }
 
+/* esercizio 7 */
+
 .ex-7-img:hover {
-    
+    filter: grayscale(100%);
+    transition: 4s;
 }
